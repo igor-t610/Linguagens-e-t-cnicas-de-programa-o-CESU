@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	int base,altura;
+	 
+	float area;
+	 
+	printf ("insira o valor da base do triangulo \n"); 
+	scanf("%d",&base);
+	
+	printf("insira o valor da altura do triangulo \n");
+	scanf("%d",&altura);
+
+	area = (base*altura)/2;
+	
+	printf("%f",area);
+	
+	return 0;
+}

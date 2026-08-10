@@ -4,16 +4,14 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	
-	int base,altura;
 	 
-	float area;
+	float base, altura, area;
 	 
 	printf ("insira o valor da base do triangulo \n"); 
-	scanf("%d",&base);
+	scanf("%f",&base);
 	
 	printf("insira o valor da altura do triangulo \n");
-	scanf("%d",&altura);
+	scanf("%f",&altura);
 
 	area = (base*altura)/2;
 	

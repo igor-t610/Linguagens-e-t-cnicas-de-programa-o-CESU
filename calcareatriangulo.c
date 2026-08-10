@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 
 	area = (base*altura)/2;
 	
-	printf("%f",area);
+	printf("%0.2f",area);
 	
 	return 0;
 }

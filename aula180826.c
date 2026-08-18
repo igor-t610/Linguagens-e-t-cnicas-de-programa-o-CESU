@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 
-//6) Faça um programa que leia um número inteiro e retorne seu antecessor e seu sucessor
+//6) FaÃ§a um programa que leia um nÃºmero inteiro e retorne seu antecessor e seu sucessor
 	int n, antecessor, sucessor;
 	
 	printf("Entre com valor de N: ");
@@ -15,8 +15,8 @@ int main(int argc, char *argv[]) {
 	antecessor = n-1;
 	
 	printf("o numero %d, seu antecessor %d, e seu sucessor %d\n", n, antecessor, sucessor);
-/*3) Faça um programa que leia um valor em reais e a cotação do dólar. Em seguida, imprima o valor
-correspondente em dólares.*/
+/*3) FaÃ§a um programa que leia um valor em reais e a cotaÃ§Ã£o do dÃ³lar. Em seguida, imprima o valor
+correspondente em dÃ³lares.*/
 	
 	float reais, cotacao, dolar;
 	
@@ -30,8 +30,8 @@ correspondente em dólares.*/
 	
 	printf("O valor de %f reais, em dolar e: %f\n", reais, dolar);
 	
-	/*10) (URI 1013) Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido
-da mensagem “eh o maior”. Utilize a fórmula:  */
+	/*10) (URI 1013) FaÃ§a um programa que leia trÃªs valores e apresente o maior dos trÃªs valores lidos seguido
+da mensagem â€œeh o maiorâ€. Utilize a fÃ³rmula:  */
 
 	int a, b, c, maiorTemp, maior;
 	

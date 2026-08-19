@@ -26,7 +26,7 @@ correspondente em dólares.*/
 	printf("Digite a cotacao do dolar: \n");
 	scanf("%f", &cotacao);
 	
-	dolar = cotacao*reais;
+	dolar = reais/cotacao;
 	
 	printf("O valor de %f reais, em dolar e: %f\n", reais, dolar);
 	

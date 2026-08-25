@@ -37,6 +37,9 @@ int main(int argc, char *argv[]) {
 			printf("os numeros sao iguais");
 		}
 	}	
-
+	else {
+		printf("um dos numeros e positivo e o outro negativo ou igual a zero");
+	}
+	
 	return 0;
 }

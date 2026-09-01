@@ -1,51 +1,42 @@
-[Project]
-FileName=aula010926.dev
-Name=aula010926
-Type=1
-Ver=2
-ObjFiles=
-Includes=
-Libs=
-PrivateResource=
-ResourceIncludes=
-MakeIncludes=
-Compiler=
-CppCompiler=
-Linker=
-IsCpp=0
-Icon=
-ExeOutput=
-ObjectOutput=
-LogOutput=
-LogOutputEnabled=0
-OverrideOutput=0
-OverrideOutputName=
-HostApplication=
-UseCustomMakefile=0
-CustomMakefile=
-CommandLine=
-Folders=
-IncludeVersionInfo=0
-SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=0000000000000000000000000
+#include <stdio.h>
+#include <stdlib.h>
 
-[VersionInfo]
-Major=1
-Minor=0
-Release=0
-Build=0
-LanguageID=1033
-CharsetID=1252
-CompanyName=
-FileVersion=
-FileDescription=Developed using the Dev-C++ IDE
-InternalName=
-LegalCopyright=
-LegalTrademarks=
-OriginalFilename=
-ProductName=
-ProductVersion=
-AutoIncBuildNr=0
-SyncProduct=1
+/* crie um programa que receba uma letra e verifique se ela e vogal ou consoante, se ela for consoante, verifique se ela é 'a' ou 'o' 
+caso seja mostre "aoba" caso seja 'i' ou 'u' mostre "lá ele", caso contrario mostre "67" */
 
+int main(int argc, char *argv[]) {
+
+    char letra;
+
+    printf("Digite uma letra: ");
+    scanf(" %c", &letra);
+
+    letra = tolower(letra);
+
+    if (letra == 'a' || letra == 'o') {
+        printf("aoba\n");
+    }
+    else if (letra == 'i' || letra == 'u') {
+        printf("La ele\n");
+    }
+    else {
+        printf("67\n");
+    }
+
+	switch (letra){
+		case 'a': 
+			printf("a de AMOR");
+			break;
+		case 'b':
+			printf("b de BAIXINHO");
+			break;
+		case 'c':
+			printf("c de CORACAO");
+			break;
+		case 'd':
+			printf("d de DEDINHO");
+			break;
+		
+	}
+    return 0;
+}
